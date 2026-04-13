@@ -1,5 +1,5 @@
 {
-  "name": "@mdigital/layouts",
+  "name": "@mdigitalcn/layouts",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@mdigital_ui/ui": "file:../mdigital_uikit"
+    "@mdigitalcn/uikit": "^1.0.13"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.0.0",

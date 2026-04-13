@@ -57,7 +57,7 @@ const Hero = () => (
 
 const Footer = () => (
   <div className="px-6 py-8 text-center text-sm text-text-secondary">
-    © 2026 MDigital. All rights reserved.
+    © 2026 mdigitalcn. All rights reserved.
   </div>
 );
 

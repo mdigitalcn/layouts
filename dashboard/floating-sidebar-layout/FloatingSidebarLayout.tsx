@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
-import ScrollArea from "@mdigital_ui/ui/scroll-area";
-import { cn } from "@mdigital_ui/ui";
+import ScrollArea from "@mdigitalcn/uikit/scroll-area";
+import { cn } from "@mdigitalcn/uikit";
 import type {
   FloatingSidebarLayoutProps,
   FloatingSidebarNavItem,

@@ -31,7 +31,7 @@ const BrandingPanel = () => (
     <div className="text-6xl mb-4">🚀</div>
     <h2 className="text-2xl font-bold">Start building today</h2>
     <p className="mt-2 max-w-xs text-text-secondary">
-      Join thousands of developers building with MDigital.
+      Join thousands of developers building with mdigitalcn.
     </p>
   </div>
 );

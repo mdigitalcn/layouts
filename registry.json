@@ -6,187 +6,384 @@
       "displayName": "Centered Auth Layout",
       "description": "Vertically centered auth form with logo, title, and background variants",
       "category": "auth",
-      "tags": ["auth", "login", "register", "centered"],
+      "tags": [
+        "auth",
+        "login",
+        "register",
+        "centered"
+      ],
       "path": "auth/centered-auth-layout",
-      "files": ["CenteredAuthLayout.tsx", "CenteredAuthLayout.types.ts", "index.ts"],
+      "files": [
+        "CenteredAuthLayout.tsx",
+        "CenteredAuthLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "split-auth-layout",
       "displayName": "Split Auth Layout",
       "description": "Two-panel auth layout with form on one side and branding panel on the other, configurable ratio",
       "category": "auth",
-      "tags": ["auth", "login", "register", "split", "two-panel"],
+      "tags": [
+        "auth",
+        "login",
+        "register",
+        "split",
+        "two-panel"
+      ],
       "path": "auth/split-auth-layout",
-      "files": ["SplitAuthLayout.tsx", "SplitAuthLayout.types.ts", "index.ts"],
+      "files": [
+        "SplitAuthLayout.tsx",
+        "SplitAuthLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "card-auth-layout",
       "displayName": "Card Auth Layout",
       "description": "Auth form inside a card with gradient/dots/grid background patterns and card variants",
       "category": "auth",
-      "tags": ["auth", "login", "register", "card", "gradient"],
+      "tags": [
+        "auth",
+        "login",
+        "register",
+        "card",
+        "gradient"
+      ],
       "path": "auth/card-auth-layout",
-      "files": ["CardAuthLayout.tsx", "CardAuthLayout.types.ts", "index.ts"],
+      "files": [
+        "CardAuthLayout.tsx",
+        "CardAuthLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "sidebar-layout",
       "displayName": "Sidebar Layout",
       "description": "Collapsible sidebar with navigation, mobile off-canvas drawer, header and footer slots",
       "category": "dashboard",
-      "tags": ["sidebar", "collapsible", "navigation", "dashboard", "mobile"],
+      "tags": [
+        "sidebar",
+        "collapsible",
+        "navigation",
+        "dashboard",
+        "mobile"
+      ],
       "path": "dashboard/sidebar-layout",
-      "files": ["SidebarLayout.tsx", "SidebarLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "SidebarLayout.tsx",
+        "SidebarLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "header-sidebar-layout",
       "displayName": "Header + Sidebar Layout",
       "description": "Full-width top header with sidebar below, mobile off-canvas drawer (GitHub/Jira pattern)",
       "category": "dashboard",
-      "tags": ["header", "sidebar", "dashboard", "topbar", "mobile"],
+      "tags": [
+        "header",
+        "sidebar",
+        "dashboard",
+        "topbar",
+        "mobile"
+      ],
       "path": "dashboard/header-sidebar-layout",
-      "files": ["HeaderSidebarLayout.tsx", "HeaderSidebarLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "HeaderSidebarLayout.tsx",
+        "HeaderSidebarLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "inset-sidebar-layout",
       "displayName": "Inset Sidebar Layout",
       "description": "Sidebar inset from the edge with rounded border and configurable gap, left or right",
       "category": "dashboard",
-      "tags": ["sidebar", "inset", "dashboard", "rounded", "mobile"],
+      "tags": [
+        "sidebar",
+        "inset",
+        "dashboard",
+        "rounded",
+        "mobile"
+      ],
       "path": "dashboard/inset-sidebar-layout",
-      "files": ["InsetSidebarLayout.tsx", "InsetSidebarLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "InsetSidebarLayout.tsx",
+        "InsetSidebarLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "dual-sidebar-layout",
       "displayName": "Dual Sidebar Layout",
       "description": "Icon rail + expandable side panel with mobile drawer (VS Code/Slack pattern)",
       "category": "dashboard",
-      "tags": ["dual-sidebar", "rail", "icon-nav", "dashboard", "mobile"],
+      "tags": [
+        "dual-sidebar",
+        "rail",
+        "icon-nav",
+        "dashboard",
+        "mobile"
+      ],
       "path": "dashboard/dual-sidebar-layout",
-      "files": ["DualSidebarLayout.tsx", "DualSidebarLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "DualSidebarLayout.tsx",
+        "DualSidebarLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "floating-sidebar-layout",
       "displayName": "Floating Sidebar Layout",
       "description": "Modern floating sidebar and content panels with inset gap (macOS-inspired)",
       "category": "dashboard",
-      "tags": ["sidebar", "floating", "inset", "dashboard", "modern", "mobile"],
+      "tags": [
+        "sidebar",
+        "floating",
+        "inset",
+        "dashboard",
+        "modern",
+        "mobile"
+      ],
       "path": "dashboard/floating-sidebar-layout",
-      "files": ["FloatingSidebarLayout.tsx", "FloatingSidebarLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "FloatingSidebarLayout.tsx",
+        "FloatingSidebarLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "holy-grail-layout",
       "displayName": "Holy Grail Layout",
       "description": "Header + left sidebar + content + right panel (3-column dashboard layout)",
       "category": "dashboard",
-      "tags": ["three-column", "holy-grail", "sidebar", "panel", "dashboard", "mobile"],
+      "tags": [
+        "three-column",
+        "holy-grail",
+        "sidebar",
+        "panel",
+        "dashboard",
+        "mobile"
+      ],
       "path": "dashboard/holy-grail-layout",
-      "files": ["HolyGrailLayout.tsx", "HolyGrailLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "HolyGrailLayout.tsx",
+        "HolyGrailLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "stacked-layout",
       "displayName": "Stacked Layout",
       "description": "Vertical stacked layout with sticky header, subheader, constrained content, and footer",
       "category": "page",
-      "tags": ["stacked", "simple", "header-footer"],
+      "tags": [
+        "stacked",
+        "simple",
+        "header-footer"
+      ],
       "path": "page/stacked-layout",
-      "files": ["StackedLayout.tsx", "StackedLayout.types.ts", "index.ts"],
+      "files": [
+        "StackedLayout.tsx",
+        "StackedLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "topnav-layout",
       "displayName": "Top Navigation Layout",
       "description": "Horizontal top navigation with mobile dropdown menu, logo, nav items, and actions",
       "category": "page",
-      "tags": ["topnav", "horizontal", "navbar", "mobile"],
+      "tags": [
+        "topnav",
+        "horizontal",
+        "navbar",
+        "mobile"
+      ],
       "path": "page/topnav-layout",
-      "files": ["TopnavLayout.tsx", "TopnavLayout.types.ts", "index.ts"],
+      "files": [
+        "TopnavLayout.tsx",
+        "TopnavLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "blank-layout",
       "displayName": "Blank Layout",
       "description": "Minimal layout with optional max-width, centering, and padding control",
       "category": "page",
-      "tags": ["blank", "minimal", "simple"],
+      "tags": [
+        "blank",
+        "minimal",
+        "simple"
+      ],
       "path": "page/blank-layout",
-      "files": ["BlankLayout.tsx", "BlankLayout.types.ts", "index.ts"],
+      "files": [
+        "BlankLayout.tsx",
+        "BlankLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "settings-layout",
       "displayName": "Settings Layout",
       "description": "Settings page with sidebar navigation (desktop) and horizontal pill nav (mobile)",
       "category": "page",
-      "tags": ["settings", "preferences", "sidebar-nav", "tabs"],
+      "tags": [
+        "settings",
+        "preferences",
+        "sidebar-nav",
+        "tabs"
+      ],
       "path": "page/settings-layout",
-      "files": ["SettingsLayout.tsx", "SettingsLayout.types.ts", "index.ts"],
+      "files": [
+        "SettingsLayout.tsx",
+        "SettingsLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "docs-layout",
       "displayName": "Documentation Layout",
       "description": "Documentation page with left sidebar, main content, right TOC, and mobile drawer",
       "category": "page",
-      "tags": ["docs", "documentation", "toc", "sidebar", "mobile"],
+      "tags": [
+        "docs",
+        "documentation",
+        "toc",
+        "sidebar",
+        "mobile"
+      ],
       "path": "page/docs-layout",
-      "files": ["DocsLayout.tsx", "DocsLayout.types.ts", "index.ts"],
-      "dependencies": ["@mdigital_ui/ui"],
-      "peerDependencies": {}
+      "files": [
+        "DocsLayout.tsx",
+        "DocsLayout.types.ts",
+        "index.ts"
+      ],
+      "dependencies": [],
+      "peerDependencies": {
+        "@mdigitalcn/uikit": "*"
+      }
     },
     {
       "name": "wizard-layout",
       "displayName": "Wizard Layout",
       "description": "Multi-step flow with horizontal or vertical progress indicator",
       "category": "page",
-      "tags": ["wizard", "stepper", "onboarding", "multi-step"],
+      "tags": [
+        "wizard",
+        "stepper",
+        "onboarding",
+        "multi-step"
+      ],
       "path": "page/wizard-layout",
-      "files": ["WizardLayout.tsx", "WizardLayout.types.ts", "index.ts"],
+      "files": [
+        "WizardLayout.tsx",
+        "WizardLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "error-layout",
       "displayName": "Error Layout",
       "description": "Centered error page with code, title, description, illustration, and actions",
       "category": "page",
-      "tags": ["error", "404", "500", "not-found", "maintenance"],
+      "tags": [
+        "error",
+        "404",
+        "500",
+        "not-found",
+        "maintenance"
+      ],
       "path": "page/error-layout",
-      "files": ["ErrorLayout.tsx", "ErrorLayout.types.ts", "index.ts"],
+      "files": [
+        "ErrorLayout.tsx",
+        "ErrorLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     },
     {
       "name": "landing-layout",
       "displayName": "Landing Layout",
       "description": "Marketing landing page with announcement bar, sticky navbar, and footer",
       "category": "landing",
-      "tags": ["marketing", "landing", "homepage", "announcement"],
+      "tags": [
+        "marketing",
+        "landing",
+        "homepage",
+        "announcement"
+      ],
       "path": "landing/landing-layout",
-      "files": ["LandingLayout.tsx", "LandingLayout.types.ts", "index.ts"],
+      "files": [
+        "LandingLayout.tsx",
+        "LandingLayout.types.ts",
+        "index.ts"
+      ],
       "dependencies": [],
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@mdigitalcn/uikit": ">=1.0.0"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { StackedLayoutProps } from "./StackedLayout.types";
 
 const mwMap: Record<string, string> = {

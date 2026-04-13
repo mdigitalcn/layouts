@@ -32,8 +32,8 @@ All 6 layouts share the same mobile pattern:
 
 - **`h-svh` not `h-screen`** — Uses small viewport height for iOS safe areas.
 - **`animate-in`** — Requires Tailwind CSS animate plugin or shadcn/ui animations. Works without animation if missing.
-- **`ScrollArea`** from `@mdigital_ui/ui/scroll-area` — Custom scrollbar. Import path matters.
-- **`Tooltip`** from `@mdigital_ui/ui/tooltip` — Used in collapsed SidebarLayout + DualSidebar rail.
+- **`ScrollArea`** from `@mdigitalcn/uikit/scroll-area` — Custom scrollbar. Import path matters.
+- **`Tooltip`** from `@mdigitalcn/uikit/tooltip` — Used in collapsed SidebarLayout + DualSidebar rail.
 - **Controlled vs uncontrolled** — Mobile open and collapsed states support both patterns.
 - **`SidebarLayout` `variant`** — Only `"collapsible"` enables toggle. `"fixed"` stays expanded.
 - **`FloatingSidebarLayout`** — Has outer `bg-surface/30` and `padding: inset` for the floating effect. Both sidebar and content are rounded with border.

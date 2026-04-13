@@ -6,11 +6,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@mdigital_ui/ui": ["../mdigital_uikit/src/index.ts"],
-      "@mdigital_ui/ui/*": ["../mdigital_uikit/src/components/*/index.ts"]
-    }
+    "skipLibCheck": true
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }

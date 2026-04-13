@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { TopnavLayoutProps } from "./TopnavLayout.types";
 
 const maxWidthMap: Record<string, string> = {

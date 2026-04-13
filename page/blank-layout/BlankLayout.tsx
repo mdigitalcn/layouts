@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { BlankLayoutProps } from "./BlankLayout.types";
 
 const mwMap: Record<string, string> = {

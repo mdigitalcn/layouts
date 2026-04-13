@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
-import ScrollArea from "@mdigital_ui/ui/scroll-area";
-import Tooltip from "@mdigital_ui/ui/tooltip";
-import { cn } from "@mdigital_ui/ui";
+import ScrollArea from "@mdigitalcn/uikit/scroll-area";
+import Tooltip from "@mdigitalcn/uikit/tooltip";
+import { cn } from "@mdigitalcn/uikit";
 import type { SidebarLayoutProps, SidebarNavItem } from "./SidebarLayout.types";
 
 /* ── Nav link ─────────────────────────────────────────── */

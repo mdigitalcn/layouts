@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { SplitAuthLayoutProps } from "./SplitAuthLayout.types";
 
 const formMaxWidthMap: Record<string, string> = {

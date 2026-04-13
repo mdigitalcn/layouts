@@ -56,7 +56,7 @@ export const WithFooter: Story = {
     ),
     footer: (
       <div className="px-4 py-2 text-xs text-text-secondary">
-        © 2026 MDigital
+        © 2026 mdigitalcn
       </div>
     ),
     children: <PageContent />,

@@ -14,7 +14,7 @@ SplitAuthLayout    → two-panel: form side + branding panel (hidden on mobile)
 CardAuthLayout     → form inside elevated card with decorative background
 ```
 
-All layouts use `@mdigital_ui/ui` `cn()` utility. No other UI kit deps.
+All layouts use `@mdigitalcn/uikit` `cn()` utility. No other UI kit deps.
 
 ## Gotchas
 

@@ -38,7 +38,7 @@ export const Default: Story = {
     subheader: <Tabs />,
     footer: (
       <div className="py-4 text-center text-sm text-text-secondary">
-        © 2026 MDigital
+        © 2026 mdigitalcn
       </div>
     ),
     maxWidth: "xl",

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { CenteredAuthLayoutProps } from "./CenteredAuthLayout.types";
 
 const maxWidthMap: Record<string, string> = {

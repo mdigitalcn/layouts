@@ -55,7 +55,7 @@ const DocContent = () => (
   <div className="space-y-6">
     <h1 className="text-3xl font-bold" id="overview">Installation</h1>
     <p className="text-text-secondary leading-relaxed">
-      Learn how to install and set up MDigital UI in your project.
+      Learn how to install and set up mdigitalcn UI in your project.
     </p>
     <h2 className="text-xl font-semibold" id="prerequisites">Prerequisites</h2>
     <ul className="list-disc pl-6 space-y-1 text-text-secondary">
@@ -66,12 +66,12 @@ const DocContent = () => (
     <h2 className="text-xl font-semibold" id="install">Install</h2>
     <div className="rounded-lg bg-surface p-4 font-mono text-sm">
       <div className="text-text-secondary"># Using pnpm</div>
-      <div>pnpm add @mdigital_ui/ui</div>
+      <div>pnpm add @mdigitalcn/uikit</div>
     </div>
     <h2 className="text-xl font-semibold" id="usage">Basic Usage</h2>
     <div className="rounded-lg bg-surface p-4 font-mono text-sm">
       <div className="text-text-secondary">{"// Import a component"}</div>
-      <div>{"import Button from '@mdigital_ui/ui/button'"}</div>
+      <div>{"import Button from '@mdigitalcn/uikit/button'"}</div>
     </div>
     <h2 className="text-xl font-semibold" id="next-steps">Next Steps</h2>
     <p className="text-text-secondary leading-relaxed">

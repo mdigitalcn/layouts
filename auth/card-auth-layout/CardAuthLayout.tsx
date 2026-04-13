@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@mdigital_ui/ui";
+import { cn } from "@mdigitalcn/uikit";
 import type { CardAuthLayoutProps } from "./CardAuthLayout.types";
 
 const bgMap: Record<string, string> = {
